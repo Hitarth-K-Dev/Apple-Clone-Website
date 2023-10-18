@@ -3,17 +3,89 @@ body {
   margin: 0;
 }
 
+.navbar {
+  text-align: center;
+  display: flex;
+  padding: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.nav-links {
+  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between; /* Evenly space the list items */
+  align-items: center;
+
+
+}
+
+.navbar li {
+  flex: 1;
+  padding: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #dedede; /* Text color for the links */
+  padding: 12px;
+  padding-left: 21px;
+  padding-right: 21px; /* Adjust as needed for spacing */
+  align-items: center;
+  justify-content: center;
+  margin: none;
+}
+
+.logo {
+  width: 20px;
+  height: 18px;
+  margin-right: 20px;
+}
+
+.logo-apple {
+  height: 90%;
+}
+
+.Magnifier, .bag {
+  width: 15px;
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Magnifier-icon, .bag-icon {
+  width: 90%;
+}
+
+
 .temporary {
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
   align-items: center;
   filter: blur(0px);
+  margin: 5px;
 }
 .Nav-Main {
   display: flex;
   height: 44px;
-  background-color: rgb(29, 29, 31);
+  background-color: rgb(20, 20, 21);
   z-index: 40;
   flex: 1;
   opacity: 95%;
@@ -21,9 +93,6 @@ body {
   left: 0;
   right: 0;
   position: fixed;
-  filter: saturate(180%);
-
-
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
