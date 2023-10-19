@@ -284,9 +284,129 @@ body {
 
 .left-content, .right-content {
   flex: 1; /* Distribute width equally between left and right content */
-  background-color:  #d5d5d9;
+  background-color:  #f7f7f7;
   margin: 6px;
   margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.left-content img {
+  width: 100%;
+  position: bottom;
+  float: bottom;
+}
+
+.iPad-text {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  font-weight: 540;
+  color: black;
+
+}
+
+.ipad-caption {
+  font-size: 19px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  font-weight: 220;
+  color: black;
+}
+
+.learn-more-and-buy-now {
+  display: flex;
+}
+
+.learn-more-ipad {
+  font-size: 16px;
+  display: flex;
+  color: rgb(41, 151, 255);
+  display: inline;
+  padding: 10px;
+}
+
+.vision-pro-model, .vision-pro-model-1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  display: inline;
+}
+
+.vision-pro-model-1 {
+  float: bottom;
+
+}
+
+
+
+.vision-text {
+  z-index: 1;
+  position: absolute;
+  float: bottom;
+  margin-top: 300px;
+}
+
+.macbook-banner {
+  padding-top: 40px;
+}
+
+.black-container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.black-container img {
+  display: flex;
+  width: auto;
+  height: 100%;
+  z-index: 0;
+
+
+}
+
+.vision-logo {
+  width: 30px;
+  padding: 4px;
+  margin-bottom: 5px;
+  filter: brightness(0);
+}
+
+.ipad-caption-vision {
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  font-weight: 220;
+  color: rgb(68, 68, 68);
+  margin-top: 10px;
+}
+
+.learn-more-vision {
+  font-size: 16px;
+
+  color: rgb(41, 151, 255);
+
+  padding: 10px;
 }
 
 .HEADER4-SLIDESHOW {
@@ -313,5 +433,29 @@ body {
   align-items: center;
   font-size: 200px;
   text-align: center;
+}
+
+.right-content-special {
+  flex: 1; /* Distribute width equally between left and right content */
+  background-color:  #f7f7f7;
+  margin: 6px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  float: bottom;
+}
+
+.vision-text-special {
+  z-index: 1;
+
+
+  display: block;
+  background-color: blue;
+
 }
 
