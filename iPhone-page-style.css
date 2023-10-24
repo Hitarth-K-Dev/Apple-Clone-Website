@@ -1,0 +1,111 @@
+.iPhone-overview {
+  margin-top: 40px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iPhone-overview img {
+  width: 40px;
+}
+
+.vector-container {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.vector-text {
+  font-size: 12px;
+  display: flex;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 7px;
+}
+.vector-new-text {
+  color: red;
+  display: flex;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+}
+
+.trade-in-banner {
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.trade-in-banner div {
+  font-size: 23px;
+  justify-content: center;
+  font-weight: 100;
+  text-align: center;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.i15-pro-container {
+  align-items: center;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 800px;
+  margin-bottom: 20px;
+}
+
+.i15-pro-heading-container {
+  margin-bottom: 90px;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  height: 240px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;  
+}
+
+.vector-red-text {
+  color: red;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+
+}
+.i15-pro-title {
+  font-size: 23px;
+  color: grey;
+  
+}
+
+.titanium-title img {
+  width: 240px;
+  display: flex;
+}
+
+.from-text {
+  color: white;
+  font-size: 20px;
+}
+
+.buy-button {
+  background-color: #0071e3;;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 13px;
+  color: white;
+}
+
+.learn-more-special {
+  font-size: 20px;
+  color:#0071e3;
+
+}
+

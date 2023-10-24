@@ -103,6 +103,24 @@ body {
   align-items: center;
 }
 
+.Nav-Main-iPhone {
+  display: flex;
+  height: 44px;
+  background-color: #e23ad7;
+  color: black;
+  z-index: 40;
+  flex: 1;
+  opacity: 95%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
 .HEADER1 {
   z-index: 10;
   background-color: black;
@@ -436,18 +454,37 @@ body {
 }
 
 .right-content-special {
-  flex: 1; /* Distribute width equally between left and right content */
-  background-color:  #f7f7f7;
-  margin: 6px;
-  margin-top: 15px;
-  margin-bottom: 0px;
+  background-color: rgb(0, 0, 0);
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right-content-special div {
+  color: white;
+}
+
+.iPad-text-special {
+  font-size: 40px;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  align-content: center;
   display: flex;
-  flex-direction: column;
-  float: bottom;
+  width: 100%;
+  font-weight: 540;
+  color: black;
+  padding-top: 100px;
+
+}
+
+.airpods {
+  bottom: 0;
+  display: flex;
+  margin-bottom: 100px;
+  height: auto;
+  width: auto
 }
 
 .vision-text-special {
