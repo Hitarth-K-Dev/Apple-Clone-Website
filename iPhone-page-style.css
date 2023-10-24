@@ -56,14 +56,13 @@
   flex-direction: column;
   justify-content: space-around;
   height: 800px;
-  margin-bottom: 20px;
+
 }
 
 .i15-pro-heading-container {
   margin-bottom: 90px;
   align-items: center;
   text-align: center;
-  margin-top: 50px;
   height: 240px;
   justify-content: space-between;
   display: flex;
@@ -109,3 +108,134 @@
 
 }
 
+.ip15-blue {
+  padding-top: 0;
+  margin-top: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.i15-container {
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+  flex-direction: column;
+  height: 800px;
+  margin-bottom: 20px;
+  position: relative;
+  justify-content: center ;
+
+
+}     
+.i15-heading-container{
+  align-items: center;
+  text-align: center;
+  height: 240px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;  
+  padding-top: 90px;
+}
+.i15-title {
+  font-size: 26px;
+  color: black;
+}
+.Newphoria {
+  font-size: 50px;
+  font-weight: 520;
+}
+.from-text-special {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.SE-container {
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(248, 248, 248);
+}
+
+.SE-text-container {
+   margin-left: 60px;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 280px;
+
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.SE-image {
+  display: flex;
+  flex: 1;
+
+  height: 800px;
+}
+
+.SE-main-title {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+}
+
+.love {
+  font-size: 50px;
+  font-weight: 510;
+  color: rgb(88, 88, 240);
+}
+
+.guided-tour-container {
+  height: 830px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.guided-tour-container img {
+  scale: 96%;
+  z-index: 1;
+  position: absolute;
+  width: 90%;
+}
+.tour-text-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: 400px;
+  margin-right: 900px;
+}
+
+.a-guided-tour {
+  color: white;
+  font-size: 23.33px; 
+}
+.ip15-and-pro {
+  font-size: 50px;
+  color: white;
+}
+
+.watch-the-film {
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  width: 140px;
+  border-radius: 50px;
+  justify-content: center ;
+  margin-top: 20px;
+}
+
+.which-iphone {
+  height: 2500px;
+  background-color: black;
+  margin-top: 180px;
+}
