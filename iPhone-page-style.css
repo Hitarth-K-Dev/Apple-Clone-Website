@@ -440,19 +440,19 @@
   left: 0;
   width: 100%;
   right: 0;
-  background-color: blue;
+  background-color: #eef1f1;
   margin-top: 100px;
   align-items: center;
   justify-content: center;
 }
 
-.row-spot {
-
+.why-apple-is-banner-wrapper {
+  height: 430px;
+  background-color: blue;
+  position: 
 }
 
-.why-apple-is {
 
-}
 
 .trade-in-wrapper1, .trade-in-wrapper2, .trade-in-wrapper3 {
   width: 450px;
@@ -528,8 +528,63 @@
   position: sticky;
   margin-bottom: 0;
   bottom: 0;
+  margin-bottom: -90px;
+  margin-top: 60px;
+
+
+}
+.head-exploding-wrapper {
+  bottom: 0;
+  position: sticky;
+  margin-bottom: 0;
+  bottom: 0;
+
 }
 
+.why-apple-is-header {
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
+.why-apple-is-header2 {
+  font-size: 20px;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 240px;
+}
 
+.learn-more-special2 {
+  font-size: 20px;
+  color:#0071e3;
+  position: absolute;
+  z-index: 10;
+  margin-top: 400px;
+}
+
+.why-apple-is {
+  height: 430px;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.why-apple-is img {
+  width: 73%;
+  margin-top: 190px;
+  z-index: 1;
+
+}
 
